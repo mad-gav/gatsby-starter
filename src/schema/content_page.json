@@ -1,0 +1,55 @@
+{
+    "Main": {
+        "uid": {
+            "type": "UID",
+            "config": {
+                "label": "Slug",
+                "placeholder": "Part of URL that comes after the domain extension."
+            }
+        },
+        "body": {
+            "type": "Slices",
+            "fieldset": "Slice zone",
+            "config": {
+                "labels": {
+                    "example_slice_1": [],
+                    "example_slice_2": []
+                },
+                "choices": {
+                    "example_slice_1": {
+                        "type": "Slice",
+                        "fieldset": "Example slice 1",
+                        "description": "Example slice",
+                        "icon": "looks_one",
+                        "display": "list",
+                        "non-repeat": {
+                            "background_colour": {
+                                "type": "Color",
+                                "config": {
+                                    "label": "Background colour"
+                                }
+                            }
+                        },
+                        "repeat": {}
+                    },
+                    "example_slice_2": {
+                        "type": "Slice",
+                        "fieldset": "Example slice 2",
+                        "description": "Another example slice",
+                        "icon": "looks_two",
+                        "display": "list",
+                        "non-repeat": {
+                            "border_colour": {
+                                "type": "Color",
+                                "config": {
+                                    "label": "Border colour"
+                                }
+                            }
+                        },
+                        "repeat": {}
+                    }
+                }
+            }
+        }
+    }
+}

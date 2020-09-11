@@ -1,0 +1,13 @@
+{
+    "Main": {
+        "body_copy": {
+            "type": "StructuredText",
+            "config": {
+                "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, list-item, o-list-item",
+                "allowTargetBlank": true,
+                "label": "Body copy",
+                "placeholder": "What's included in this starter?"
+            }
+        }
+    }
+}
